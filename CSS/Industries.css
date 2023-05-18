@@ -1,0 +1,284 @@
+#industry{
+    border-top: #66CC00 2px solid;
+}
+/*Part 1*/
+.industryTitle{
+    width:400px;
+    height:70px;
+    position: center;
+    margin:80px auto 60px auto;
+}
+
+.industryTitle h1{
+    text-align: center;
+    font-size: 62px;
+    margin-bottom: 12px;
+    border-bottom: #9B9B9B 2px solid;
+    transition: all .4s ease 0s;
+}
+
+.industryTitle h1:hover {
+    color: #FFFFFF;
+    background: #66CC00;
+    border-bottom: none;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.general,.policy,.distribution{
+    width:1200px;
+    height:320px;
+    margin: 20px auto;
+    padding:10px 0 10px 10px;
+    border: #F2F2F2 solid 2px;
+    border-radius: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.generalTxt{
+    width:400px;
+    height:380px;
+}
+
+.heading{
+    width:320px;
+    height:50px;
+}
+
+.content{
+    width:360px;
+    padding:0 5px 10px 15px;
+    height: 320px;
+}
+
+.heading h2{
+    font-size: 28px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.content p{
+    font-size: 19px;
+    line-height: 34px;
+    letter-spacing: 2px;
+}
+.Para2{
+    margin-top:10px;
+}
+
+#generalGraph{
+    width:820px;
+    height:320px;
+    margin-left: 20px;
+}
+
+/*Part 2*/
+.policy{
+    height:600px;
+    width:1200px;
+    padding: 0;
+}
+
+.policyTxt{
+    width:320px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#policyCont{
+    width:280px;
+    padding:0 5px 10px 15px;
+    height: 350px;
+}
+#policyCont p{
+    line-height: 36px;
+}
+
+.policyTable{
+    width:840px;
+    height:520px;
+    margin-top: 15px;
+    margin-left: 40px;
+    padding:10px 10px 20px 20px;
+}
+
+.policyTitle{
+    text-align: center;
+}
+
+.mainTable{
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+}
+
+.mainTable th{
+    display: inline-block;
+    font-size: 36px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 240px;
+}
+
+.tableHead td{
+    display: inline-block;
+    text-align: center;
+    height:35px;
+    font-size: 24px;
+    font-weight: bold;
+    padding:5px 0 10px 20px;
+    border-bottom: 1px solid rgb(200,200,200);
+    border-right: 1px solid rgb(200,200,200);
+}
+
+.tableHead td:nth-child(1){
+    width:110px;
+    border-top:1px solid rgb(200,200,200) ;
+}
+
+.tableHead td:nth-child(2){
+    width:230px;
+    border-top:1px solid rgb(200,200,200) ;
+}
+.tableHead td:nth-child(3){
+    width:370px;
+    padding-left: 40px;
+    border-top:1px solid rgb(200,200,200) ;
+}
+
+.tableDetail td{
+    display: inline-block;
+    text-align: center;
+    height:110px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid rgb(200,200,200);
+    border-right: 1px solid rgb(200,200,200);
+}
+
+.tableDetail td:nth-child(1){
+    width:120px;
+    padding:0 5px;
+}
+
+.tableDetail td:nth-child(2){
+    width:220px;
+    padding:0 15px;
+}
+.tableDetail td:nth-child(3){
+    width:370px;
+    padding:0 20px;
+}
+
+/*Part 3*/
+.distribution{
+    height:520px;
+    width: 1250px;
+}
+.distribution h2{
+    width:500px;
+    text-align: center;
+    margin:10px 10px 0 70px ;
+    font-size: 26px;
+    transition: all .4s ease 0s
+}
+
+
+#columnParagraph,#regionsParagraph{
+    width:620px;
+    height:500px;
+}
+
+.distribution h2:hover{
+    color:#FFF;
+    background: #5470C6;
+    transition: .4s;
+    border-radius: 5px;
+}
+
+.regionChartTxt h2{
+    width: 450px;
+    font-size: 26px;
+    margin-top: 8px;
+    margin-left: 80px;
+}
+
+/*Part 4*/
+.Tendency{
+    width:1300px;
+    height:1000px;
+    margin: 20px auto 40px ;
+    padding:10px 0 10px 10px;
+    border: #F2F2F2 solid 2px;
+    border-radius: 1em;
+}
+
+.tendencyTxt{
+    width:1100px;
+    height:200px;
+    padding:20px;
+    margin:auto ;
+}
+.tendencyTitle{
+    width: 600px;
+    height:60px;
+    margin:0  auto 20px;
+    text-align: center;
+}
+.tendencyTitle h2{
+    font-size: 28px;
+    transition: all .6s ease 0s ;
+}
+.tendencyTitle h2:hover{
+    transform: scale(120%);
+    color:#FFF;
+    background: #3270FC;
+    transition: .6s;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.tendencyCont{
+    width:800px;
+    padding:10px 20px;
+    margin: auto;
+    height:100px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    line-height: 28px;
+}
+
+.tendencyCharts{
+    width:1250px;
+    height:520px;
+    display: flex;
+    margin-top: 280px;
+}
+
+.contributeTitle, .employmentTitle{
+    height:60px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.contributeTitle h2{
+    margin-left: 180px;
+}
+.employmentTitle h2{
+    margin-left: 160px;
+}
+
+#txt2{
+    margin-top: 40px;
+}
+
+#contribution,#employment{
+    width:600px;
+    height:430px;
+}
+#contribution{
+    margin-top: 20px;
+}
+#employment{
+    width:600px;
+    margin-left: 36px;
+}

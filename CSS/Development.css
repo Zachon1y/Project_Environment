@@ -1,0 +1,91 @@
+#develop{
+    border-top: #66CC00 2px solid;
+}
+
+.Heading_cont,.headImg{
+    width:1200px;
+    height:400px;
+    position: relative;
+    top:60px;
+    margin: 5px auto;
+}
+
+.headImg img{
+    height: 400px;
+    width:1200px;
+}
+
+.headTitle{
+    width:500px;
+    height:200px;
+    position: absolute;
+    top:120px;
+    left: 160px;
+}
+
+.headTitle h2{
+    color:#FFF;
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+
+.headTxt{
+    width:700px;
+    height:150px;
+    position: absolute;
+    top:190px;
+    left:160px;
+}
+
+.headTxt p{
+    color:#FFF;
+    font-size: 17px;
+}
+
+.mainContent{
+    padding: 10px 0;
+    width:1150px;
+    position: relative;
+    top:120px;
+    margin: 5px auto 120px auto;
+}
+
+.mainTitle{
+    height:75px;
+    width:1130px;
+    margin:auto;
+    border-bottom: #F2F2F2 1px solid;
+}
+.mainTitle h2{
+    height:50px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    text-align: center;
+    transition: all .4s ease 0s;
+}
+
+.mainTitle h2:hover{
+    color:#FFF;
+    background: #66CC00;
+    transition: .4s;
+    border-radius: 8px;
+}
+
+.para1,.para2,.para3,.para4{
+    width:850px;
+    margin:10px auto 20px auto;
+}
+
+.mainContent h1{
+    font-size: 36px;
+    margin-bottom:16px;
+}
+
+.mainContent p{
+    letter-spacing: 4px;
+    line-height: 38px;
+    font-size: 20px;
+}
+

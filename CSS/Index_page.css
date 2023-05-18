@@ -1,0 +1,159 @@
+#back{
+    border-top: #66CC00 2px solid;
+}
+
+#index_content{
+    height:650px;
+    width:1200px;
+    margin:160px 40px 40px 40px;
+    padding:10px;
+
+}
+.contHeading {
+    margin-left: 56px;
+}
+
+.contHeading p{
+    font-size: 54px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.ROLcont{
+    width:1200px;
+    height:640px;
+    display: flex;
+    margin: 0 50px;
+}
+
+.ROL1,.ROL2,.ROL3{
+    display: inline-block;
+    width:496px;
+    height:586px;
+    margin-top:20px;
+    padding:0 12px;
+}
+
+.Pics img{
+    width:396px;
+    height:264px;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+.txt{
+    height: 300px;
+    border: 1px lightgray solid;
+    font-size: 18px;
+    letter-spacing: 4px;
+    padding:5px;
+    line-height: 29px;
+    overflow: hidden;
+}
+
+.txtTitle{
+    font-size: 32px;
+    margin:20px 5px;
+}
+
+.ROL1:hover{
+    transform: translate(-8px,-8px);
+    transition: .6s;
+}
+
+.ROL1,.ROL2,.ROL3{
+    transition: all 0.4s ease 0s;
+}
+
+.ROL2:hover{
+    transform: translate(-8px,-8px);
+    transition: .6s;
+}
+
+.ROL3:hover{
+    transform: translate(-8px,-8px);
+    transition: .6s;
+}
+
+.txt:hover{
+    color:#FFF;
+    background: #66CC00;
+    transition: .4s;
+}
+
+.txt{
+    transition: all 0.4s ease 0s;
+}
+
+#Pictures{
+    margin: 10px 20px 150px 20px;
+    width: 700px;
+    position: relative;
+    top:50px;
+    left: 80px  ;
+    overflow: hidden;
+    height: 500px;
+}
+#Pictures img{
+    width: 700px;
+    height:500px;
+}
+#Pictures > ul {
+    display: flex;
+    position: absolute;
+}
+#Pictures > ul,
+#Pictures > ul > li{
+    padding: 0;
+    margin: 0;
+    list-style:none;
+}
+
+#Pictures > ul{
+    animation: switch 10s ease 1s infinite alternate; /* 设定动画播放 */
+}
+/* 制定动画规则 */
+@keyframes switch{
+    0%,13%{
+        right: 0;
+    }
+    27%,41%{
+        right: -700px;
+    }
+    55%,69%{
+        right: -1400px;
+    }
+    83%,100% {
+        right: -2100px;
+    }
+}
+
+.ecoNews{
+    height:600px;
+    width:565px;
+    position: absolute;
+    top:910px;
+    left:850px;
+}
+
+.newsHeading{
+    height:80px;
+    width: inherit;
+}
+.newsHeading p{
+    text-align: center;
+    color:green;
+    font-size: 36px;
+    font-family: 微软雅黑;
+    /*font-weight: bold;*/
+}
+
+.newsList ul{
+    list-style: none;
+}
+.newsList ul li{
+    letter-spacing: 2px;
+    height:50px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}

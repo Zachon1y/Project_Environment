@@ -1,0 +1,287 @@
+#Trends{
+    border-top: #66CC00 2px solid;
+}
+
+.headContainer{
+    height:640px;
+    width:580px;
+    margin:60px 10px 20px 0;
+}
+
+.headContainer div{
+    display: inline-block;
+}
+
+
+.headContainer img{
+    height:640px;
+    width:580px;
+    transition: all .8s ease 0s;
+}
+
+.headContainer img:hover  {
+    transform: scale(115%,105%);
+    transition: .8s;
+}
+.HCTxt{
+    width: 540px;
+    height:380px;
+    position: absolute;
+    top:160px;
+    margin-left: 80px;
+    padding:60px 20px 20px 40px;
+    text-align: right;
+    transition: all .6s ease 0s;
+}
+
+.HCTxt p{
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    letter-spacing: 4px;
+    line-height: 84px;
+}
+
+.HCTxt:hover{
+    background: #66CC00;
+    color: #FFFFFF;
+    transition: .6s;
+    border-radius: 6em;
+}
+
+.searching{
+    height:80px;
+    margin:20px 20px;
+}
+
+.searchList{
+    position: relative;
+    height: inherit;
+    margin: inherit;
+    border: 1px solid #9B9B9B;
+    border-left: lightseagreen 6px solid;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.searchList ul li{
+    display: inline-block;
+    width:140px;
+    margin:5px 30px;
+    transition: .6s;
+    font-family: 黑体;
+    font-size:28px;
+    text-align: center;
+}
+
+.Search{
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+
+.searchFirst{
+    color: #66CC00;
+}
+
+.searchme{
+    transition: all .2s ease 0s;
+}
+
+
+.searchme:hover{
+    color: #66CC00;
+    transition: .4s;
+}
+
+.Search li p{
+    cursor: pointer;
+}
+
+.trendsNews{
+    width:1120px;
+    margin:20px auto;
+    padding: 0 10px;
+}
+
+.trendsNews div{
+    display: inline-block;
+
+}
+
+.News{
+    height:710px;
+    width:500px;
+    border: #9B9B9B solid 2px;
+    border-radius: 1em;
+    position: relative;
+    transition: all .4s ease 0s;
+    box-shadow: 8px 5px 5px #8A8F99;
+}
+
+.News1{
+    /*position: relative;*/
+    /*top:-30px;*/
+    margin-top:40px;
+    margin-left: 20px;
+}
+
+.News2{
+    position: relative;
+    top:-15px;
+    margin-top:40px;
+    margin-left: 60px;
+}
+
+.News3{
+    margin-left: 20px;
+}
+
+.News4{
+    position: relative;
+    top:-35px;
+    margin-top:20px;
+    margin-left: 50px;
+}
+
+.newsImg img{
+    width:500px;
+    height:400px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 14px;
+}
+
+.newsDate{
+    width:125px;
+    height:78px;
+    padding:15px 0 20px 0;
+    text-align: center;
+    color: #FFFFFF;
+    background: #66CC00;
+    border-radius: 8px;
+    transition: all .4s ease 0s;
+    position: absolute;
+    top:325px;
+    left:90px;
+}
+
+.newsDate h3{
+    font-size: 40px;
+}
+
+.newsDate p{
+    font-size: 22px;
+}
+
+.newsTxt,.tourismNewsTxt{
+    width:470px;
+    padding:0 10px;
+    margin: auto;
+    transition: all .4s ease 0s;
+}
+
+.newsTxt h2{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.newsTxt h2:hover{
+    color: #66CC00;
+}
+.newsTxt p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 32px;
+}
+
+.News:hover{
+    transform: translate(-8px,-8px);
+    transition: .4s;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    background: yellow;
+}
+.News:hover .newsDate{
+    background: black;
+    color:yellow;
+    transition: .4s;
+}
+#infoNews2{
+    height:800px;
+}
+
+#infoNews3{
+    height:770px;
+}
+
+#activityNews2{
+    height:830px;
+}
+
+#infoNews4{
+    height: 810px;
+    margin-top:65px;
+}
+
+#activityNews3{
+    margin-top: 120px;
+    height:830px;
+}
+
+#activityNews4{
+    height:800px;
+    margin-left: 60px;
+    position: absolute;
+    top:1700px;
+    /*margin-top: 80px;*/
+}
+
+#box2{
+    display: none;
+}
+
+#box3{
+    display: none;
+}
+
+#tourismNews1{
+    height:810px;
+    position: relative;
+    top:76px;
+}
+
+#tourismNews2{
+    height:820px;
+    position: relative;
+    top:-22px;
+    margin-bottom: 20px;
+}
+
+#tourismNews3{
+    height:810px;
+    top:45px;
+    margin-bottom: 40px;
+}
+
+#tourismNews4{
+    height:840px;
+    top:15px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+#tourismNews4 h2
+{
+    font-size: 24px;
+}
+.tourismNewsTxt h2{
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.tourismNewsTxt p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 32px;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>环保产业</title>
+    <link rel="stylesheet" href="../CSS/Frame.css">
+    <link rel="stylesheet" href="../CSS/Industries.css">
+    <script src="../Javascript/echarts.min.js" defer></script>
+    <script src="../Javascript/Industry.js" defer></script>
+</head>
+<body>
+<div class="Menu">
+    <div class="Menu_img">
+        <img src="../IMG/index/Logo.png" alt="LOGO">
+    </div>
+    <div class="Menu_cont">
+        <ul class="primary">
+            <li class="Menu_title" id="back">
+                <a href="../HTML/Index.html" target="_self">首页</a></li>
+            <li class="Menu_title" id="develop">
+                <a href="Development.html" target="_self">环保发展历程</a>
+            </li>
+            <li class="Menu_title">
+                <a href="../HTML/Trends.html" target="_self">环保动态</a>
+            </li>
+            <li class="Menu_title">
+                <a href="#">生态保护</a>
+                <ul class="second_menu">
+                    <li><a href="../Protection/Resource.html" target="_self">气候和能源</a></li>
+                    <li><a href="../Protection/Creature.html" target="_self">保护生物多样性</a></li>
+                    <li><a href="../Protection/Sustainable.html" target="_self">可持续生活</a></li>
+                </ul>
+            <li class="Menu_title" id="industry"><a href="Industrial.html" target="_self">环保产业</a></li>
+        </ul>
+    </div>
+</div>
+
+    <div class="industryTitle">
+            <h1>环保产业</h1>
+    </div>
+
+    <div class="general">
+        <div class="generalTxt">
+            <div class="heading">
+                <h2>环保产业基本概况</h2>
+            </div>
+            <div class="content">
+                <p>环保，全称环境保护，是指人类为解决现实的或潜在的环境问题，协调人类与环境的关系，保障经济、社会的持续发展而采取的各种行动的总称。</p>
+                <p class="Para2">环保产业主要包括环保机械设备制造、自然保护开发经营、环境工程建设、环境保护服务等方面。</p>
+            </div>
+        </div>
+        <div id="generalGraph">
+
+        </div>
+    </div>
+
+    <div class="policy">
+        <div class="policyTxt">
+                <div class="content" id="policyCont">
+                    <p>2020年，我国提出了实现2030年前碳达峰、2060年前碳中和的"双碳"目标，并印发了“十四五”规划和2035年远景目标。</p>
+                        <p>文件指出，在“十四五”期间，我国的生态文明建设目标主要聚焦于生产生活方式的绿色转型、能源资源利用效率的提升、污染物排放的降低以及城乡居住环境的改善等方面，对环保领域的发展提出了较高的要求。</p>
+                </div>
+        </div>
+            <div class="policyTable">
+                <table class="mainTable">
+<!--                    <thead class="policyTitle">环保行业相关政策</thead>-->
+                    <tr>
+                        <th>环保行业相关政策</th>
+                    </tr>
+                    <tr class="tableHead">
+                        <td>发布时间</td>
+                        <td>文件名称</td>
+                        <td>主要内容</td>
+                    </tr>
+                    <tr class="tableDetail">
+                        <td>2023.01</td>
+                        <td>《关于推进建制镇生活污水垃圾处理设施建设和管理的实施方案》</td>
+                        <td>到2035年，基本实现建制镇建成区生活污水收集处理能力全覆盖和生活垃圾全收集、全处理。</td>
+                    </tr>
+                    <tr class="tableDetail">
+                        <td>2022.06</td>
+                        <td>《加快推进生态环保产业高质量发展深入打好污染防治攻坚战全力支撑碳达峰碳中和工作行动纲要(2021-2030年)》</td>
+                        <td>到2030年，适应环境污染防治、生态保护与修复、资源高效循环利用、碳达峰、促进经济社会发展全面绿色转型需求的现代生态环保产业体系基本建立。</td>
+                    </tr>
+                    <tr class="tableDetail">
+                        <td>2022.01</td>
+                        <td>《环保装备制造业高质量发展行动计划(2022-2025年)》</td>
+                        <td>到2025年，行业技术水平明显提升，一批制约行业发展的关键短板技术装备取得突破，高效低碳环保技术装备产品供给能力显著提升，充分满足重大环境治理需求行业综合实力持续增强。</td>
+                    </tr>
+                    <tr class="tableDetail">
+                        <td>2021.12</td>
+                        <td>《“十四五”节能减排综合工作方案》</td>
+                        <td>到2025年，新增和改造污水收管网8万公里，新增污水处理能力2000万立方米/日，城市污泥无害化处置率达到90%，城镇生活垃圾焚烧处理能力达到80万吨/左右，城市生活垃圾焚烧处理能力占比65%左右。</td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+
+    <div class="distribution">
+        <div class="column">
+            <div class="columnTxt">
+                <h2>我国规模以上环保行业产业园区分布情况</h2>
+            </div>
+            <div id="columnParagraph"></div>
+        </div>
+        <div class="regions">
+            <div class="regionChartTxt">
+                <h2>2002-2022年国内环保企业注册数量(单位：家)</h2>
+            </div>
+            <div id="regionsParagraph">
+
+            </div>
+        </div>
+    </div>
+    <div class="Tendency">
+        <div class="tendencyTxt">
+            <div class="tendencyTitle">
+                <h2>生态环保产业总体规模保持增长<br/>产业对国民经济发展及就业的贡献进一步提升</h2>
+            </div>
+            <div class="tendencyCont">
+                <p>
+                    环保产业对国民经济的贡献总体呈逐步加大的趋势，2020年，环保产业营业收入与国内生产总值(GDP)的比值为1.9%，较2019年增长0.08个百分点，较2004年增长1.5个百分点。环保产业对国民经济直接贡献率1为4.5%，较2019年增长1.2个百分点，较2004年增长4.2个百分点。环保产业对国民经济的贡献总体呈逐步加大的趋势
+                </p>
+            </div>
+            <div class="tendencyTitle" id="txt2">
+                <h2>中国环保行业总体发展方向：<br/>行业加速整合，持续高质量转型发展</h2>
+            </div>
+            <div class="tendencyCont">
+                <p>
+                    环保产业是生态文明建设和污染防治攻坚战的中坚力量，是统筹经济高质量发展和生态环境高水平保护、着力解决突出环境问题、实现绿色转型发展的重要支撑。
+                </p>
+                <p style="margin-top: 10px">
+                    近年来，我国环保行业虽面临着诸多困境，但仍处于大有可为的战略机遇期。尤其是当前环保“督察高压”步入常态化，环保产业市场需求逐步释放;宏观政策逆周期调节，助推增加环保产业投资，降低环保企业经营成本;国企改革再出发，纷纷布局环保产业，加速行业整合，环保产业正向品质化、集中化转型升级。
+                </p>
+            </div>
+        </div>
+        <div class="tendencyCharts">
+            <div class="Contribution">
+                <div class="contributeTitle">
+                    <h2>
+                         环境治理行业贡献
+                    </h2>
+                    <div id="contribution"></div>
+                </div>
+            </div>
+             <div class="Employment">
+                 <div class="employmentTitle">
+                     <h2>
+                         环境治理行业对国内就业的贡献
+                     </h2>
+                 </div>
+                 <div id="employment"></div>
+             </div>
+        </div>
+    </div>
+
+<footer class="Footer">
+    <div class="footerSlogan">
+        <p>行动带来改变，营造绿色家园</p>
+    </div>
+    <div class="footerTxt">
+        <p>版权所有，未经授权禁止使用</p>
+        <p>2022440580 张玉凡</p>
+        <p></p>
+        <p></p>
+    </div>
+    <div class="footerImg">
+        <img src="../IMG/index/Logo.png" alt="Logo">
+    </div>
+</footer>
+</body>
+</html>
